@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>  
+    <link rel="stylesheet" href="gym.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="container" id="container">  
+        
+        <!-- Navbar Starts Here -->  
+        <nav>    
+            <div class="navbar"> 
+                <div class="logo">  
+                    <a href="#"><img src="https://cdn.dribbble.com/users/1692428/screenshots/9770125/media/6bb2a6119e1e50333208bf26a0826a75.jpg?compress=1&resize=400x300" alt="GYM Logo"></a>
+                </div>
+                <div class="content">  
+                    <div class="line" id="line" onclick="line()">  
+                        <div class="line1"></div>      
+                        <div class="line1"></div> 
+                        <div class="line1"></div> 
+                    </div>   
+
+                    <ul class="menu" id="mediaQuery">
+                        <li><a href="#">Home</a></li> 
+                        <li><a href="#local-two">Mission</a></li>
+                        <li><a href="#local-three">Workouts</a></li>
+                        <li><a href="#local-four">Join Us   </a></li>
+                        <li><a href="#local-five">Suplementary</a></li> 
+                        <li><a href="#local-six">Pricing</a></li>
+                        <li><a href="#local-seven">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="logsign">   
+                    <a href="#" ><button id="login">Login</button></a>
+                    <a href="signup.html" target="_blank" ><button id="signup">Sign Up</button></a>
+                </div>
+            </div>   
+        </nav>  
+
+        <main>
+
+            <section id="one"> 
+                <div class="display-first">
+                    <!-- <img src="https://c4.wallpaperflare.com/wallpaper/835/56/964/fitness-desktop-nexus-wallpaper-preview.jpg" alt=""> -->
+                    <div class="left">
+                        <div class="main-content-heading">
+                            <h1>Get the best part</h1>
+                            <h1>of your day</h1>
+                            <h1>-you fit here</h1>
+                        </div>
+                        <div class="main-content-para">
+                            <p>We provide serious fitness but within</p>
+                            <p>a fun and friendly, free space</p> 
+                        </div>
+                        <div class="main-content-button"> 
+                            <a href="#local-four"><button title="Join Us Now">Join Now</button></a>
+                        </div> 
+                    </div>    
+                    
+                    <ul class="menu" id="mobile"> 
+                        <li><a href="#" id="home" onclick="home()">Home</a></li> 
+                        <li><a href="#local-two" id="mission" onclick="mission()">Mission</a></li>
+                        <li><a href="#local-three" id="workout" onclick="workout()">Workouts</a></li>
+                        <li><a href="#local-four" id="joinus" onclick="joinus()">Join Us</a></li>
+                        <li><a href="#local-five" id="suplement" onclick="suplement()">Suplementary</a></li>
+                        <li><a href="#local-six" id="pricing" onclick="pricing()">Pricing</a></li>
+                        <li><a href="#local-seven" id="contact" onclick="contact()">Contact Us</a></li>
+                    </ul>
+                    
+                    
+                </div>  
+            </section>
+  
+            <section id="two" >
+                <div class="display-two" id="local-two"> 
+                    <div class="ourmission">
+                        <div class="ourmission-heading"> 
+                            <div class="img">
+                                <!-- <img src="https://www.internetandtechnologylaw.com/files/2019/06/iStock-872962368-chat-bots.jpg" alt=""> -->
+                            </div>
+                            <h1 style="font-size: 32px;">Our Missions</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dolor suscipit vel nobis esse laborum voluptates architecto laboriosam. Voluptatem, eaque modi. Rerum accusamus officiis magni modi magnam commodi culpa, eius mollitia voluptatem a dolorum non molestiae nesciunt assumenda unde maiores earum hic corporis cum libero vel eaque nulla nisi itaque?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit repellendus doloremque, impedit quis id omnis error ratione expedita! Nisi.</p>
+                    </div>
+                </div> 
+            </section>
+
+
+            <div id="local-three" style="padding: 1rem 0;"></div>
+
+            <section id="three"> 
+                <div class="display-three">
+                    <div class="wegive">
+                        <div class="heading-wegive">
+                            <h1>We can give you</h1>
+                            <h1 id="ffff">Much More Than Others</h1>
+                        </div>
+                        <div class="img-flex">
+                            <div class="col1">
+                                <img src="https://goldsgym.in/uploads/home_icons/gyms.png" alt="">
+                                <p>156 Gyms</p>
+                            </div>
+                            <div class="col2">
+                                <img src="https://goldsgym.in/uploads/home_icons/cities.png" alt="">
+                                <p>95 Cities</p>
+                            </div>
+                            <div class="col3">
+                                <img src="https://goldsgym.in/uploads/home_icons/states.png" alt="">
+                                <p>26 States</p>
+                            </div>
+                            <div class="col4">
+                                <img src="https://goldsgym.in/uploads/home_icons/Website_Personal.png" alt="">
+                                <p>Personal Training Program</p>
+                            </div>
+                            <div class="col5">
+                                <img src="https://goldsgym.in/uploads/home_icons/Corporate.png" alt="">
+                                <p>Corporate Wellness Program</p>
+                            </div>
+                            <div class="col6">
+                                <img src="https://goldsgym.in/uploads/home_icons/Group_Exercise.png" alt="">
+                                <p>Group Program</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <div id="local-four" style="padding: 1rem 0 1rem 0;"></div>
+
+
+            <section id="four">
+                <div class="display-four">
+                    <div class="video">
+                        <h1>OUR LATEST VIDEO</h1>
+                        <div class="vd"> 
+                            <!-- width="560" height="315" -->
+                            <!-- <iframe src="https://www.youtube.com/embed/PfRW-Yyq7ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <iframe src="https://www.youtube.com/embed/gGSmEjZqpfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <h1>GET IN TOUCH WITH US</h1>
+                        <form action="action.php">
+                            <div id="select"> 
+                                <select name="select" id="select">
+                                    <option value="freetraining">GET A FREE TRAINING SESSION</option>
+                                    <option value="join">JOIN THE GYM</option>
+                                    <option value="job">APPLY FOR A JOB</option>
+                                    <option value="contact">CONTACT US</option>
+                                    <option value="subs">SUBSCRIBE TO OUR NEWSLETTER</option>
+                                    <option value="testi">WRITE US A TESTIMONIAL</option>
+                                </select>
+                            </div> 
+                            <div id="name">
+                                <input type="text" name="name" id="name" placeholder="Enter Name">
+                            </div>
+                            <div id="email">
+                                <input type="text" name="email" id="email" placeholder="Enter Email">
+                            </div>
+                            <div id="phnum">
+                                <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number">
+                            </div>
+                            <div id="state">
+                                <select name="state" id="state">
+                                    <option value> <strong>-- PLEASE SELECT CITY --</strong> </option>
+                                    <option value="Nagpur">Amrawati</option>
+                                    <option value="Nagpur">Banglore</option> 
+                                    <option value="Nagpur">Bhopal</option>
+                                    <option value="Nagpur">Bhubaneswar</option>
+                                    <option value="Nagpur">Chandigarh</option>
+                                    <option value="Nagpur">Chennai</option>
+                                    <option value="Nagpur">Dehradun</option>
+                                    <option value="Nagpur">Delhi</option>
+                                    <option value="Nagpur">Gandhinagar</option>
+                                    <option value="Nagpur">Gangtok</option>
+                                    <option value="Nagpur">Guwahati</option>
+                                    <option value="Nagpur">Hyderabad</option>
+                                    <option value="Nagpur">Jaipur</option>
+                                    <option value="Nagpur">Jammu</option>
+                                    <option value="Nagpur">Kolkata</option>
+                                    <option value="Nagpur">Lucknow</option>
+                                    <option value="Nagpur">Mumbai</option>
+                                    <option value="Nagpur">Nagpur</option>
+                                    <option value="Nagpur">Nashik</option>
+                                    <option value="Nagpur">Patna</option>
+                                    <option value="Nagpur">Raipur</option>
+                                    <option value="Nagpur">Ranchi</option>
+                                    <option value="Nagpur">Shimla</option>
+                                    <option value="Nagpur">Shrinagar</option>
+                                    <option value="Nagpur">Thiruvananthapuram</option>
+                                    <option value="Nagpur">Vijayawada</option>
+                                    <option value="Nagpur">Visakhapatnam</option>
+                                </select>
+                            </div>  
+                        </form> 
+                        <div class="joinnow">
+                            <a href="#"><button id="join-now" >JOIN NOW</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="local-five" style="padding: 1rem 0 1rem 0;"></div>
+
+
+            <section id="five">
+                <div class="display-five" id="local-five">
+                    <div class="fcontent">
+                        <h1>THE SUPPLEMENT FACTORY</h1>
+                        <h4>AND SHAKE BAR</h4> 
+
+                        <div class="fpara">
+                            <p>Located conveniently within the Fitness Factory, stop by our shake bar for pre and post workout necessities including protein shakes made to order, protein bars and other snacks, as well as a wide array of supplements, to take home.</p>
+                        </div>
+
+                        <div class="ulshakeretail">
+                            <div class="shakes"> 
+                                <strong>The Shake Bar</strong>
+                                <ul>
+                                    <li>Protein Shakes Made to Order</li>
+                                    <li>Pre Workout Drinks & Powder</li>
+                                    <li>BCAAs & EAAs</li>
+                                    <li>Protein Bars & Other Snacks</li>
+                                    <li>Bottled Water</li>
+                                    <li>Energy Drinks</li>
+                                    <li>Ready to Drink Protein</li>
+                                </ul> 
+                            </div> 
+                            <div class="retail">
+                                <strong>Retail & Merchandise</strong>
+                                <ul>
+                                    <li>Protein Tubs</li>
+                                    <li>Pre Workout</li>
+                                    <li>Intra Workout</li> 
+                                    <li>Custom Apparel</li>
+                                    <li>Shaker Bottles</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="fimage">
+                        <img src="https://fitnessfactorymaine.com/wp-content/uploads/2019/01/Protein-and-shaker.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+            <div id="local-six" style="padding: 1rem 0 1rem 0;"></div>
+
+            <section id="six">
+                <div class="display-six" id="local-six">
+                    <div class="card-one">
+                        <div class="regular">
+                            <!-- ✔️ ❌ -->
+                            <div class="head">
+                                <h1>Regular</h1>
+                            </div>
+                            <div class="properties">
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Training Overview</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Begineer Classes</strong>
+                                </div>
+                                <div class="tick">
+                                    ❌
+                                </div>
+                                <div class="word">
+                                    <strong>Personal Training</strong>
+                                </div>
+                                <div class="tick">
+                                    ❌
+                                </div>
+                                <div class="word">
+                                    <strong>Olympic Weightlifting</strong>
+                                </div>
+                                <div class="tick">
+                                    ❌
+                                </div>
+                                <div class="word">
+                                    <strong>Foundational Training</strong>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#"><button id="reg">BUY NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-two">
+                        <div class="popular">
+                            <!-- ✔️ -->
+                            <div class="head">
+                                <h1>Popular</h1>
+                            </div>
+                            <div class="properties">
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Training Overview</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Begineer Classes</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Personal Training</strong>
+                                </div>
+                                <div class="tick">
+                                    ❌
+                                </div>
+                                <div class="word">
+                                    <strong>Olympic Weightlifting</strong>
+                                </div>
+                                <div class="tick">
+                                    ❌
+                                </div>
+                                <div class="word">
+                                    <strong>Foundational Training</strong>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#"><button id="pop">BUY NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-three">
+                        <div class="gold">
+                            <!-- ✔️ -->
+                            <div class="head">
+                                <h1>Gold</h1>
+                            </div>
+                            <div class="properties">
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Training Overview</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Begineer Classes</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Personal Training</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Olympic Weightlifting</strong>
+                                </div>
+                                <div class="tick">
+                                    ❌
+                                </div>
+                                <div class="word">
+                                    <strong>Foundational Training</strong>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#"><button id="gold">BUY NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-four">
+                        <div class="profess">
+                            <!-- ✔️ -->
+                            <div class="head">
+                                <h1>Professional</h1>
+                            </div>
+                            <div class="properties">
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Training Overview</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Begineer Classes</strong>
+                                </div>
+                                <div class="tick"> 
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Personal Training</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Olympic Weightlifting</strong>
+                                </div>
+                                <div class="tick">
+                                    ✔️
+                                </div>
+                                <div class="word">
+                                    <strong>Foundational Training</strong>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#"><button id="prof">BUY NOW</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ 
+        </main> 
+
+
+    </div>
+
+
+    <footer>
+        <div class="foot" id="local-seven">
+            <h1>Contact Us</h1> 
+        </div>
+        <div class="flexcont"> 
+            <div class="footer-contact-two" id="icons-two">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.5210865220415!2d79.05773931443623!3d21.051840192366956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4be5e617378eb%3A0x682e0bc768d22adb!2sGovernment%20College%20of%20Engineering%20Nagpur!5e0!3m2!1sen!2sin!4v1617731462335!5m2!1sen!2sin" frameborder="0"></iframe>
+                </div> 
+                <div class="trans">
+                    <div class="mail-two"> 
+                        <a href="mailto:vednande10@gmail.com"><i class="fa" target="_blank">&#xf0e0;</i> Enquire Here</a>
+                    </div>    
+                    <div class="yt-two"> 
+                        <a href="#" target="_blank"><i class="fa">&#xf16a;</i>Subscribe us</a>
+                    </div> 
+                    <div class="twitter-two">
+                        <a href="#" target="_blank"> <i class="fa">&#xf099;</i>Follow us on twitter</a> 
+                    </div> 
+                    <div class="linkedin-two">
+                        <a href="#"  target="_blank"><i class="fa">&#xf08c;</i>Connect us on LinkedIn</a>
+                    </div> 
+                    <div class="insta-two">
+                        <a href="#" target="_blank"> <i class="fa">&#xf16d;</i>Follow us on Instagram</a> 
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <div class="app">
+            <div class="playstore">
+                <a href="#">
+                    <img src="https://goldsgym.in/assets/google-play-store.png" alt="PS">
+                </a>
+            </div> 
+            <div class="ios">
+                <a href="#"> 
+                    <img src="https://goldsgym.in/assets/apple-app-store.png" alt="IOS">
+                </a> 
+            </div>
+        </div>
+        <div class="rightreserve">
+            <strong>© VED NANDE | ALL RIGHTS RESERVED</strong>
+        </div>
+    </footer>
+
+    <button id="darkMode" onclick="darkMode()">
+        Dark Mode? 
+    </button>   
+  
+    <script>
+        function line(){
+            document.getElementById("mobile").style.display="flex";
+        } 
+        function home(){
+            document.getElementById("mobile").style.display="none";
+        } 
+        function mission(){ 
+            document.getElementById("mobile").style.display="none"; 
+        }
+        function workout(){ 
+            document.getElementById("mobile").style.display="none"; 
+        }
+        function joinus(){ 
+            document.getElementById("mobile").style.display="none"; 
+        }
+        function suplement(){ 
+            document.getElementById("mobile").style.display="none"; 
+        }
+        function pricing(){ 
+            document.getElementById("mobile").style.display="none"; 
+        }
+        function contact(){ 
+            document.getElementById("mobile").style.display="none"; 
+        }
+    </script> 
+  
+ 
+</body>
+</html>

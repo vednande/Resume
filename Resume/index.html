@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ved Resume</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="default.png">
+</head>
+<body> 
+    <div class="container">   
+  
+        <!-- Navbar starts here -->
+
+        <div class="bgimage">
+            <nav class="navbar">
+                <div class="navbar-inside">
+    
+                    <div class="name">  
+                        <!-- <h1>Ved Nande</h1>  -->
+                        <a href="#"><img src="default.png" alt="Logo"></a>
+                    </div> 
+                      
+                    <div class="line" id="line">   
+                        <div class="line1" id="rightGhum"></div>    
+                        <div class="line1" id="gayabHo"></div> 
+                        <div class="line1" id="leftGhum"></div>
+                    </div>
+                    <ul class="menu" >  
+                        <li><a href="#">Home</a></li> 
+                        <li><a href="#local1">About</a></li>  
+                        <li><a href="#local3">Skills</a></li>  
+                        <li><a href="#local4">Contact</a></li> 
+                    </ul>   
+                </div>  
+            </nav>  
+
+            <ul class="menu" id="mobile">    
+                <li><a href="#" id="homeBand" onclick="homeB()">Home</a></li>
+                <li><a href="#local1" id="aboutBand" onclick="aboutB()">About</a></li>  
+                <li><a href="#local3" id="skillsBand" onclick="skillsB()">Skills</a></li>  
+                <li><a href="#local4" id="contactBand"  onclick="contactB()">Contact</a></li>  
+            </ul>
+  
+            <!-- Name and Photo here --> 
+    
+            <div class="name-photo">  
+                <div class="flex-name-photo">
+                    <!-- <ul class="menu" id="mobile">    
+                        <li><a href="#" id="homeBand" onclick="homeB()">Home</a></li>
+                        <li><a href="#local1" id="aboutBand" onclick="aboutB()">About</a></li>  
+                        <li><a href="#local3" id="skillsBand" onclick="skillsB()">Skills</a></li>  
+                        <li><a href="#local4" id="contactBand"  onclick="contactB()">Contact</a></li> 
+                    </ul> -->
+                    <div class="intro">  
+                        <h2>Hello, I'am</h2>
+                        <h1>Ved Nande</h1>
+                        <h5>I am currently in <strong>2nd Year</strong>, persuing <strong>Bachelor of Technology</strong> in the field of <strong>Computer Science</strong>. I am Multi-tasking, enthusiastic and ready to learn new Technology and getting adapted to it. </h5>
+                        <br>
+                         
+                        <button class="about-us"><a href="#local1" class="no-idea">About Me</a></button>  
+                        <button class="projects"><a href="#local2" class="no-idea">Projects</a></button> 
+                    </div>  
+                      
+                    <!-- <ul class="menu" id="mobile">    
+                        <li><a href="#" id="homeBand" onclick="homeB()">Home</a></li>
+                        <li><a href="#local1" id="aboutBand" onclick="aboutB()">About</a></li>  
+                        <li><a href="#local3" id="skillsBand" onclick="skillsB()">Skills</a></li>  
+                        <li><a href="#local4" id="contactBand"  onclick="contactB()">Contact</a></li> 
+                    </ul> -->
+                </div>
+ 
+            </div>  
+
+            <!-- About me section -->
+            <div class="about-me" id="local1"> 
+                <div class="about-me-content">
+                    <div class="about-me-heading">
+                        <div class="heading">
+                            <h1>About Me</h1>
+                            <h3>Who am I</h3>
+                        </div>
+                    </div> 
+                    <div class="photo-cv"> 
+                        <div class="photo">
+                            <img src="VedPhoto.jpeg" alt="image">
+                        </div>
+                        <div class="about-me-info">
+                            <h1>I am Ved Nande</h1>
+                            <p>As a developer, I specialize in creating modular and scalable front-end architectures.I generate fresh and unique content for any specific purpose.Since I respect the time, I always deliver content within the promised timeframe. I understand and respect the fact, that there is a story behind every brand , behind every individual.</p>
+                            
+                            <!-- <button class="cv"><a href="#">Download CV</a></button> -->
+                            
+                            <a href="VedNandeResume.pdf" target="_blank" class="a-cv"><button  class="cv">Download CV</button></a> 
+                            
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+
+            <!-- My projects -->
+
+            <div class="my-projects" id="local2"> 
+                <div class="my-projects-content">
+                    <div class="my-projects-heading">
+                        <div class="heading">
+                            <h1>My Projects</h1>
+                            <h3>What I provide</h3>
+                        </div>
+                    </div>
+                    <div class="cards" id="cards">
+                        <div class="card-one">
+                            <h1>Web Dev</h1>
+                            <ul id="webList">
+                                <li id="webHov"><a href="https://ved-gym.netlify.app/">Gym</a></li>
+                                <li id="webHov"><a href="https://ved-restaurant.netlify.app">Restaurant</a></li>
+                                <li id="webHov"><a href="https://ved-merchandising.netlify.app">Merchandising</a></li> 
+                            </ul>
+                        </div>
+                        <div class="card-two">  
+                            <h1>App Dev</h1> 
+                            <ul id="webList">
+                                <li id="webHov"><a href="https://ved-gym.netlify.app/">Gym</a></li>
+                                <li id="webHov"><a href="https://ved-restaurant.netlify.app">Restaurant</a></li>
+                                <li id="webHov"><a href="https://ved-merchandising.netlify.app">Merchandising</a></li> 
+                            </ul>
+                        </div>
+                        <div class="card-three">
+                            <h1>Flutter</h1>
+                            <ul id="webList">
+                                <li id="webHov"><a href="https://ved-gym.netlify.app/">Gym</a></li>
+                                <li id="webHov"><a href="https://ved-restaurant.netlify.app">Restaurant</a></li>
+                                <li id="webHov"><a href="https://ved-merchandising.netlify.app">Merchandising</a></li> 
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div> 
+
+            <!-- Skills here --> 
+
+            <div class="skills" id="local3">
+                <div class="skills-content"> 
+                    <div class="skills-heading">
+                        <div class="ffff"> 
+                            <h1>My Skills</h1>  
+                            <h3>What I know</h3> 
+                        </div>
+                    </div>     
+                    <div class="flex-skills">
+                        <div class="intro-skills"> 
+                            <h2>My creative skills & experiences.</h2>
+                            
+                            <div class="hackerrank">
+                                <p><a class="hacker" href="https://www.hackerrank.com/dashboard" target="_blank">• My Hackerrank Profile</a></p> 
+                            </div> 
+                            <div class="qwiklab">
+                                <p><a class="qwiklab" href="https://www.qwiklabs.com/public_profiles/e6c147d2-c31d-4ee4-92ed-66e361ae7937" target="_blank">• My Qwiklabs Profile</a></p> 
+                            </div> 
+                            <!-- <div class="gym"> 
+                                <p><a class="...." href="gym.html" target="_blank">• My <strong>GYM</strong> Website</a></p>
+                            </div> -->
+                            <div class="_30daysgcloud"> 
+                                <p><a class="thirtyday" href="https://www.linkedin.com/posts/ved-nande-b86248203_30daysofgooglecloud-googlecloud-learning-activity-6883658647436611584-ysdJ?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">• My 30 days of GCloud Certi</a></p>
+                            </div>
+                            <div class="javacerti">
+                                <p><a class="...." href="https://docs.google.com/document/d/1qdzhd-UEEfVQ9PVRC0o2mg1tjGU8kY8Lz_GhZu2bZOg/edit" target="_blank">• Java Certification</a></p> 
+                            </div>
+                            <div class="mysql"> 
+                                <p><a class="...." href="https://docs.google.com/document/d/1vhjr6EZxcN5bjaEmHLUIHcR-DOqGqhb-RhbfLztmong/edit" target="_blank">• MySQL Certification</a></p>
+                            </div>
+                            <div class="jscript"> 
+                                <p><a class="...." href="" target="_blank">• My JavaScript Cetification</a></p>
+                            </div>
+                            
+
+                        </div>
+                        <div class="progress-bar">
+                            <div class="html">
+                                <div class="head">
+                                    <div class="f1">
+                                        HTML
+                                    </div>
+                                    <div class="f2">
+                                        90%
+                                    </div> 
+                                </div>
+                                <div class="grey">
+                                    <div class="gold-html"></div> 
+                                </div>  
+                            </div>
+                            <div class="css"> 
+                                <div class="head">
+                                    <div class="f1">
+                                        CSS
+                                    </div>
+                                    <div class="f2">
+                                        80%
+                                    </div>
+                                </div> 
+                                <div class="grey">
+                                    <div class="gold-css"></div>
+                                </div>
+                            </div>
+                            <div class="c">
+                                <div class="head">
+                                    <div class="f1">
+                                        C
+                                    </div>
+                                    <div class="f2">
+                                       75%
+                                    </div>
+                                </div>
+                                <div class="grey">
+                                    <div class="gold-c"></div>
+                                </div>
+                            </div> 
+                            <div class="java">
+                                <div class="head">
+                                    <div class="f1">
+                                        JAVA
+                                    </div>
+                                    <div class="f2">
+                                        65% 
+                                    </div>
+                                </div>
+                                <div class="grey">
+                                    <div class="gold-java"></div>
+                                </div>
+                            </div>
+                            <div class="jscript">
+                                <div class="head">
+                                    <div class="f1">
+                                        JavaScript
+                                    </div>
+                                    <div class="f2">
+                                        60%
+                                    </div>
+                                </div>
+                                <div class="grey">
+                                    <div class="gold-jscript"></div>
+                                </div>
+                            </div>
+                            <div class="flutter">
+                                <div class="head">
+                                    <div class="f1">
+                                        Flutter
+                                    </div>
+                                    <div class="f2">
+                                        60%
+                                    </div>
+                                </div>
+                                <div class="grey">
+                                    <div class="gold-flutter"></div>
+                                </div>
+                            </div>
+                            <div class="kotlin">
+                                <div class="head">
+                                    <div class="f1">
+                                        Kotlin
+                                    </div>
+                                    <div class="f2">
+                                        40%
+                                    </div> 
+                                </div>
+                                <div class="grey"> 
+                                    <div class="gold-kotlin"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Me -->
+            
+            <footer>
+                <div class="contact-me" id="local4"> 
+                    <div class="contact-me-content">
+                        <div class="contact-me-heading">
+                            <div class="heading">
+                                <h1>Contact Me</h1>
+                                <h3>Get in touch with me</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form">
+                            <h2>Message me: </h2>
+                            
+                            <div class="form-here">
+                                <form action="mail.php">
+                                    <div class="form-flex">
+                                        <!-- Name user input -->
+                                        <input type="text" name="name" id="name" placeholder="Name: " required>
+                                        <!-- Email user input -->
+                                        <input type="text" name="email" id="email"  placeholder="Email: " required>
+                                </div> 
+                                <div class="subject-message"> 
+                                    <!-- Subject user input -->
+                                    <input type="text" name="subject" id="subject" placeholder="Subject" required> 
+                                    <br>
+                                    <!-- Message user input -->
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                                    <div class="submit">
+                                        <button id="submit" class="submit-here" type="button">Submit here</button>
+                                    </div> 
+                                    <p id="temp">Details submitted succesfully!!</p>
+                                </div> 
+                            </form>
+                            </div>
+                        </div> 
+
+     
+                        <div class="flex-contact"> 
+                            <h1>Follow Me</h1> 
+                            <div class="social-media"> 
+                                <div class="facebook"> 
+                                    <a href="https://www.facebook.com/ved.nande.7/" target="_blank" class="fa fa-facebook"></a>
+                                </div>  
+                                <div class="twitter">
+                                    <a href="https://twitter.com/VedNande2?t=EJVG-8xOFIwfCPeksn5PNw&s=09" target="_blank" class="fa fa-twitter"></a>
+                                </div>
+                                <div class="linkedin">
+                                    <a href="https://www.linkedin.com/in/ved-nande-b86248203/" target="_blank" class="fa fa-linkedin"></a>
+                                </div>
+                                <div class="insta"> 
+                                    <a href="https://www.instagram.com/vednande/" target="_blank" class="fa fa-instagram"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+
+            </footer>
+        </div> 
+
+ 
+        <script src="script.js"></script>
+</body>
+</html>
